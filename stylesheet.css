@@ -4,7 +4,7 @@
 
 /*Default Fonts and Sizes*/
 body {
-    font-family: Roboto, serif;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
 }
 
 h1 {
@@ -105,4 +105,19 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+/*Quote*/
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.quote #quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+.quote #quote-author {
+    font-style: italic;
+    font-weight: lighter;
 }
