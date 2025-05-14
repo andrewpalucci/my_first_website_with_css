@@ -1,0 +1,58 @@
+* {
+    outline: 2px solid darkred;
+}
+
+/*Default Fonts and Sizes*/
+body {
+    font-family: Roboto, serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Specific Boxes */
+
+/*Header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header p {
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.header .header-links {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+
+/* IntroBox */
+.introduction {
+    display: flex;
+}
+
+.intro-left .intro-right {
+    flex: 1;
+}
+
+
