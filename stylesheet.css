@@ -90,7 +90,19 @@ h2 {
 }
 
 /*Random Facts*/
-.random-facts {
+.random-facts .facts{
     display: flex;
     justify-content: space-evenly;
+}
+
+.random-facts .facts p {
+    font-size: 18px;
+    color: dimgray;
+}
+
+.random-facts p {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
