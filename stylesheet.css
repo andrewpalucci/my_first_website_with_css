@@ -1,4 +1,4 @@
-* {
+*{
     outline: 2px solid darkred;
 }
 
@@ -16,6 +16,7 @@ h1 {
 h2 {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: normal;
 }
 
 /* Specific Boxes */
@@ -49,10 +50,47 @@ h2 {
 /* IntroBox */
 .introduction {
     display: flex;
+    background-color: #1F2937;
 }
 
-.intro-left .intro-right {
+.intro-left, .intro-right {
     flex: 1;
 }
 
+.intro-right {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
+.introduction .intro-right img {
+    display: flex;
+    flex: 1;
+    width: 10%;
+    height: auto;
+    padding: 50px;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction .intro-left .wording {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introduction .intro-left button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+/*Random Facts*/
+.random-facts {
+    display: flex;
+    justify-content: space-evenly;
+}
